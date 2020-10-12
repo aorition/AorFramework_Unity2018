@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B05094BF-0EFC-4835-A998-EA8A3198A46E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AorFramework</RootNamespace>
+    <AssemblyName>AorFramework</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;UNITY_2018</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AorBaseUtility">
+      <HintPath>..\..\CSharpFramework\bin\AorBaseUtility.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="AorUnityExtents">
+      <HintPath>..\..\AorUnityExtents\bin\AorUnityExtents.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DOTween, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\IncludeLibs\DOTween\DOTween.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DOTween43, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\IncludeLibs\DOTween\DOTween43.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DOTween46, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\IncludeLibs\DOTween\DOTween46.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DOTween50">
+      <HintPath>..\..\IncludeLibs\DOTween\DOTween50.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\IncludeLibs\Unity2018.3.14f1\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\IncludeLibs\Unity2018.3.14f1\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="src\Abstract\ManagerBase.cs" />
+    <Compile Include="src\Abstract\ManagerLauncherBase.cs" />
+    <Compile Include="src\Audio\AudioManager.cs" />
+    <Compile Include="src\Audio\AudioManagerLauncher.cs" />
+    <Compile Include="src\Bridges\AudioBridge.cs" />
+    <Compile Include="src\Bridges\ShaderBridge.cs" />
+    <Compile Include="src\Config\JSON\JScriptableObject.cs" />
+    <Compile Include="src\Define\FrameworkAssetsPathDefine.cs" />
+    <Compile Include="src\Define\FrameworkBaseEnumDefines.cs" />
+    <Compile Include="src\Graphics\CustomLightSystem\Scripts\CustomLightInfo.cs" />
+    <Compile Include="src\Graphics\CustomLightSystem\Scripts\CustomLightManager.cs" />
+    <Compile Include="src\Graphics\CustomLightSystem\Scripts\CustomLightSupports.cs" />
+    <Compile Include="src\Graphics\GraphicsSystem\Scripts\CamlensEffects\CamlensEffects.cs" />
+    <Compile Include="src\Graphics\GraphicsSystem\Scripts\Components\FLPostEffect\FLEffectBase.cs" />
+    <Compile Include="src\Graphics\GraphicsSystem\Scripts\Components\FLPostEffect\FLPostEffectController.cs" />
+    <Compile Include="src\Graphics\GraphicsSystem\Scripts\Components\RenderTextureCaptcher\RenderTextureCaptcher.cs" />
+    <Compile Include="src\Graphics\GraphicsSystem\Scripts\Components\RenderTextureCaptcher\RenderTextureCaptcherDebugHander.cs" />
+    <Compile Include="src\Graphics\GraphicsSystem\Scripts\Components\RenderTextureCombine\RenderTextureCaptureCamera.cs" />
+    <Compile Include="src\Graphics\GraphicsSystem\Scripts\Components\RenderTextureCombine\Scripts\RenderTextureCombine.cs" />
+    <Compile Include="src\Graphics\GraphicsSystem\Scripts\Components\RTPostEffect\RTPostEffectBase.cs" />
+    <Compile Include="src\Graphics\GraphicsSystem\Scripts\Datas\GraphicsSettingAsset.cs" />
+    <Compile Include="src\Graphics\GraphicsSystem\Scripts\GraphicBase.cs" />
+    <Compile Include="src\Graphics\GraphicsSystem\Scripts\GraphicsManager.cs" />
+    <Compile Include="src\Graphics\GraphicsSystem\Scripts\GraphicsManagerLauncher.cs" />
+    <Compile Include="src\Graphics\GraphicsSystem\Scripts\Interfaces\IFLPostEffectComponent.cs" />
+    <Compile Include="src\Graphics\GraphicsSystem\Scripts\Interfaces\IRTPostEffectComponent.cs" />
+    <Compile Include="src\Graphics\GraphicsSystem\Scripts\Utility\GraphicsCamUtility.cs" />
+    <Compile Include="src\Graphics\GraphicsSystem\Scripts\Utility\RenderQueueOverrider.cs" />
+    <Compile Include="src\Graphics\GraphicsSystem\Scripts\Utility\RenderTextureUtility.cs" />
+    <Compile Include="src\Graphics\PrefabLightmap\PrefabLightmapData.cs" />
+    <Compile Include="src\Graphics\VisualCamera\Scripts\Components\BasicNoisePerlin.cs" />
+    <Compile Include="src\Graphics\VisualCamera\Scripts\Components\Composer.cs" />
+    <Compile Include="src\Graphics\VisualCamera\Scripts\Components\FramingTransposer.cs" />
+    <Compile Include="src\Graphics\VisualCamera\Scripts\Components\HardLockToTarget.cs" />
+    <Compile Include="src\Graphics\VisualCamera\Scripts\Components\HardLookAt.cs" />
+    <Compile Include="src\Graphics\VisualCamera\Scripts\Components\interfaces\IVisualCameraComponents.cs" />
+    <Compile Include="src\Graphics\VisualCamera\Scripts\Components\OrbitalTransposer.cs" />
+    <Compile Include="src\Graphics\VisualCamera\Scripts\Components\SameAsFollowObject.cs" />
+    <Compile Include="src\Graphics\VisualCamera\Scripts\Components\TrackedDolly.cs" />
+    <Compile Include="src\Graphics\VisualCamera\Scripts\Components\Transposer.cs" />
+    <Compile Include="src\Graphics\VisualCamera\Scripts\Core\AxisState.cs" />
+    <Compile Include="src\Graphics\VisualCamera\Scripts\Core\CinemachinePropertyAttribute.cs" />
+    <Compile Include="src\Graphics\VisualCamera\Scripts\Core\GaussianFilter.cs" />
+    <Compile Include="src\Graphics\VisualCamera\Scripts\Core\GEVPathBase.cs" />
+    <Compile Include="src\Graphics\VisualCamera\Scripts\Core\NoiseSettings.cs" />
+    <Compile Include="src\Graphics\VisualCamera\Scripts\Core\Predictor.cs" />
+    <Compile Include="src\Graphics\VisualCamera\Scripts\Core\ReflectionHelpers.cs" />
+    <Compile Include="src\Graphics\VisualCamera\Scripts\Core\SplineHelpers.cs" />
+    <Compile Include="src\Graphics\VisualCamera\Scripts\Core\UnityVectorExtensions.cs" />
+    <Compile Include="src\Graphics\VisualCamera\Scripts\Core\VCETargetGroup.cs" />
+    <Compile Include="src\Graphics\VisualCamera\Scripts\Core\VisualCameraComponentBase.cs" />
+    <Compile Include="src\Graphics\VisualCamera\Scripts\Core\VisualCameraExtension.cs" />
+    <Compile Include="src\Graphics\VisualCamera\Scripts\Path\DollyCart.cs" />
+    <Compile Include="src\Graphics\VisualCamera\Scripts\Path\GEVPath.cs" />
+    <Compile Include="src\Graphics\VisualCamera\Scripts\Path\GEVSmoothPath.cs" />
+    <Compile Include="src\Graphics\VisualCamera\Scripts\VisualCamera.cs" />
+    <Compile Include="src\Graphics\VisualCamera\Scripts\VisualCameraAnimHandler.cs" />
+    <Compile Include="src\Interfaces\GameBaseInterfaces\ICustomTimeScale.cs" />
+    <Compile Include="src\Interfaces\IEditorOnlyScript.cs" />
+    <Compile Include="src\Interfaces\GameBaseInterfaces\IGameAnimObject.cs" />
+    <Compile Include="src\Interfaces\GameBaseInterfaces\IGameObject.cs" />
+    <Compile Include="src\Core\IManager.cs" />
+    <Compile Include="src\Core\SetPropertyAttribute.cs" />
+    <Compile Include="src\Config\JSON\JScriptableObjectDataWraper.cs" />
+    <Compile Include="src\Config\JSON\JSONEncoder.cs" />
+    <Compile Include="src\Config\JSON\JSONParser.cs" />
+    <Compile Include="src\Interfaces\ISimulateAble.cs" />
+    <Compile Include="src\ProcessControl\DelayActionManager\DelayActionBase.cs" />
+    <Compile Include="src\ProcessControl\DelayActionManager\DelayActionManager.cs" />
+    <Compile Include="src\ProcessControl\DelayActionManager\DelayByFrames.cs" />
+    <Compile Include="src\ProcessControl\DelayActionManager\DelayBySeconds.cs" />
+    <Compile Include="src\ProcessControl\DelayActionManager\DelayForCondition.cs" />
+    <Compile Include="src\ProcessControl\DelayActionManager\DelayToNextFrame.cs" />
+    <Compile Include="src\ProcessControl\DelayActionManager\SimpleLoopAction.cs" />
+    <Compile Include="src\ProcessControl\QueueActionManager\QueueActionManager.cs" />
+    <Compile Include="src\Bridges\AddComponentBridge.cs" />
+    <Compile Include="src\Bridges\ResourcesLoadBridge.cs" />
+    <Compile Include="src\Units\CameraStructInfo.cs" />
+    <Compile Include="src\Utility\CameraMathUtility.cs" />
+    <Compile Include="src\Utility\CorrectingAspect.cs" />
+    <Compile Include="src\Utility\EditorSupport\Interfaces\IShaderDefine.cs" />
+    <Compile Include="src\Utility\EditorSupport\MeshChecker\MeshChecker.cs" />
+    <Compile Include="src\Utility\EditorSupport\MeshEditTool\MeshVertexEdition.cs" />
+    <Compile Include="src\Utility\EditorSupport\SimpleTestMonoBehaviour\SimpleTestMonoBehaviour.cs" />
+    <Compile Include="src\Utility\EditorSupport\TansformPlus\TansformShortcut.cs" />
+    <Compile Include="src\Utility\FPS.cs" />
+    <Compile Include="src\Utility\GPUTextureUtility\GPUTextureUtils.cs" />
+    <Compile Include="src\Utility\GPUTextureUtility\Texture2DGPUUtility.cs" />
+    <Compile Include="src\Utility\Texture2DUtility.cs" />
+    <Compile Include="src\Utility\TextureScale.cs" />
+    <Compile Include="src\Utility\TimeScaleIgnore.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src\Misc\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\Graphics\GraphicsSystem\Scripts\Components\RenderTextureCombine\Shaders\PEOverride.shader" />
+    <None Include="src\Graphics\GraphicsSystem\Scripts\Components\RenderTextureCombine\Shaders\PEOverrideAdd.shader" />
+    <None Include="src\Graphics\GraphicsSystem\Scripts\Components\RenderTextureCombine\Shaders\PEOverrideMultiply.shader" />
+    <None Include="src\Graphics\VisualCamera\Presets\Noise\Handheld_normal_extreme.asset" />
+    <None Include="src\Graphics\VisualCamera\Presets\Noise\Handheld_normal_mild.asset" />
+    <None Include="src\Graphics\VisualCamera\Presets\Noise\Handheld_normal_strong.asset" />
+    <None Include="src\Graphics\VisualCamera\Presets\Noise\Handheld_tele_mild.asset" />
+    <None Include="src\Graphics\VisualCamera\Presets\Noise\Handheld_tele_strong.asset" />
+    <None Include="src\Graphics\VisualCamera\Presets\Noise\Handheld_wideangle_mild.asset" />
+    <None Include="src\Graphics\VisualCamera\Presets\Noise\Handheld_wideangle_strong.asset" />
+    <None Include="src\Graphics\VisualCamera\Presets\Noise\Vibration.asset" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

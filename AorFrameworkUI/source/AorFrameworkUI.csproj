@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{14AFDF8D-858D-4A6B-8BCC-7B228A1A5CAA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AorFrameworkUI</RootNamespace>
+    <AssemblyName>AorFrameworkUI</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AorBaseUtility">
+      <HintPath>..\..\CSharpFramework\bin\AorBaseUtility.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="AorUnityExtents">
+      <HintPath>..\..\AorUnityExtents\bin\AorUnityExtents.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>..\..\IncludeLibs\DOTween\DOTween.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DOTween43">
+      <HintPath>..\..\IncludeLibs\DOTween\DOTween43.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DOTween46">
+      <HintPath>..\..\IncludeLibs\DOTween\DOTween46.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DOTween50">
+      <HintPath>..\..\IncludeLibs\DOTween\DOTween50.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\IncludeLibs\Unity2018.3.14f1\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\IncludeLibs\Unity2018.3.14f1\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="src\Components\ExtendedImages\BaseImage.cs" />
+    <Compile Include="src\Components\ExtendedImages\CircleImage.cs" />
+    <Compile Include="src\Components\ExtendedImages\RoundedImage.cs" />
+    <Compile Include="src\Components\ExtendedRawImages\LinearRadarChartRawImage.cs" />
+    <Compile Include="src\Components\Floating\FloatingItemHandler.cs" />
+    <Compile Include="src\Components\NumberFollow\NumFollow.cs" />
+    <Compile Include="src\Components\RenderTextrueView\RenderTextureView.cs" />
+    <Compile Include="src\Components\ExtendedRawImages\BaseRawImage.cs" />
+    <Compile Include="src\Components\ExtendedRawImages\RoundedRawImage.cs" />
+    <Compile Include="src\Components\TextTyper\TextTyper.cs" />
+    <Compile Include="src\Components\UGUICutomRaycastAreaImage\UGUICustomRaycastSubArea.cs" />
+    <Compile Include="src\Components\UGUICutomRaycastAreaImage\UGUICutomRaycastAreaImage.cs" />
+    <Compile Include="src\Core\AorGraphicRaycaster.cs" />
+    <Compile Include="src\Core\AorUIComponent.cs" />
+    <Compile Include="src\Events\AorUIEventListener.cs" />
+    <Compile Include="src\Events\AorUIEventListenerSettingAsset.cs" />
+    <Compile Include="src\Extends\RectTransformExtends.cs" />
+    <Compile Include="src\UGUISRC\UGUI_FontUpdateTracker_SC.cs" />
+    <Compile Include="src\UGUISRC\UGUI_Image_SC.cs" />
+    <Compile Include="src\UGUISRC\UGUI_RawImage_SC.cs" />
+    <Compile Include="src\UGUISRC\UGUI_ScrollRect_SC.cs" />
+    <Compile Include="src\UGUISRC\UGUI_SetPropertyUtility_SC.cs" />
+    <Compile Include="src\UGUISRC\UGUI_Text_SC.cs" />
+    <Compile Include="src\UIManager\UIManager.cs" />
+    <Compile Include="src\UIManager\UIManagerLauncher.cs" />
+    <Compile Include="src\UIManager\UIManagerSettingAsset.cs" />
+    <Compile Include="src\UIManager\UIRuntimeUtility.cs" />
+    <Compile Include="src\Units\SpriteAsset.cs" />
+    <Compile Include="src\Units\SpriteAssetInfo.cs" />
+    <Compile Include="src\Utility\RectTransformScaler.cs" />
+    <Compile Include="src\Utility\RectTransformSizeListener.cs" />
+    <Compile Include="src\Utility\SetPropertyUtilityExt.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\AorFramework\source\AorFramework.csproj">
+      <Project>{b05094bf-0efc-4835-a998-ea8a3198a46e}</Project>
+      <Name>AorFramework</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
