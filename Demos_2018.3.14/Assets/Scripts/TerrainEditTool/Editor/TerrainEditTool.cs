@@ -12,7 +12,7 @@ namespace Framework.Editor.Tools
 
         private static GUIContent m_titleContent;
 
-        [MenuItem("FrameworkTools/TerrainEdit/TerrainEditWindow")]
+        [MenuItem("DEV/TerrainEdit/TerrainEditWindow")]
         public static void init()
         {
             TerrainEditTool window = UnityEditor.EditorWindow.GetWindow<TerrainEditTool>();

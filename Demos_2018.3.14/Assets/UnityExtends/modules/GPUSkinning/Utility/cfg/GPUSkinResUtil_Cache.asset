@@ -1,0 +1,872 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db3e8a7a898e3b341a6b5383b89a40e8, type: 3}
+  m_Name: GPUSkinResUtil_Cache
+  m_EditorClassIdentifier: 
+  Keys:
+  - 228eea031ba1cac4f98af436502afd57
+  - 30962bd7f424beb4e89c588fa1e03f70
+  - 9de948a5c58da7643a2efca9c351802f
+  - 98b5b574b0a38d04e96a8c17b0d0d7ba
+  - 48e64d6f557250546a7d18f73414fd9b
+  - f8caf286291a4ea4197e2e5c846fb702
+  - 9ade6bf70aea1fb47ab0dc6a98afcf6a
+  - 2cdbe9c0d5ef1b548a7b3c6ebeb4a37f
+  - 4fb2abf75361f8a4385db193131687be
+  - 4c78d9fafcd79a74bb041932dafb321a
+  - 291cec67714ac6c43b8fcfdc2f180013
+  - a8d4b761dc8398b4a9204d527cdcd3c2
+  - 57c24ab28305a034ab3e108e54236381
+  - 09763018f8d2bff44abd60fed3fe93fc
+  - f10267303347daf4783c000b73cd3b68
+  - dcc6c48a2e18d6b49ba4ffca3f4dc56e
+  - 0c84993d99ad5f3449dba1abb0170668
+  - 20f7ddb190c8f654ea49f8b953a99509
+  - 8d3024cd544a7984183cf2497fb8188c
+  - cf8314df6b0172042864ab1a769e156c
+  - 09d908f7b082c84438a75ec6e2d47562
+  - 9b03de7716ecf2546a8b39cb292101ab
+  - e8870e84411f9194eb412accee3b1c4e
+  - b9cb95745a8464d438e7eecd04baca2e
+  - 2d155410884c3e849a34133f532fce47
+  - a9b55f9525e67644a9eee4941a6b7a29
+  - a3aeaf5bfa6e24d43a5b88b730a0614b
+  - e6ec9552969b9c34d8dc65180ea7b5f0
+  - afa8b4f4cb093cb4d910e09449f3e08b
+  - a80c2138666e77d43a625c2d5cdf225f
+  - 92ab89d1f55c1724486958231bf8c160
+  - 90f670984a8abf447928e83c913fae61
+  - 784a20735a7bd4341ba3c6609871775f
+  - 4605acae7f6cc7345ad0129b9451c23c
+  - a46e257c70ade3c47b80ca5a2ee81399
+  - 8de3f74f0eb7e454c9b9ede2d54c6521
+  - caf76316ba8c80442bee3529de203512
+  - c415b90d3f6afee41bf687bd1ef92c5d
+  - 36955aed892524c4e8e2fcd895bf676f
+  - 484adefaea97a1e4cb6df57e52439e3f
+  - a4bb96c2c71bd3f4a904aed22f8f99ae
+  - eb4f3494c88570849b94b0b4802207de
+  - 06f0880b49a64e94f868617ae631dce9
+  - 06ae8ecd2284ba04796fb3696fc5f5d1
+  - 5b01587eff2e7134b9bad169fbc75d9c
+  - 13b2494166e8a424187ea5f63d8d5bd0
+  Values:
+  - GUID_mat: 10a145807a3cf904d9f43cdbea51946e
+    GUID_lightMat: 
+    GUID_mesh: 
+    GUID_animMap: f3a7f880327477942b012db354b627fd
+    Cache_animMap_frames:
+    - {x: 1, y: 400}
+    Cache_animMap_frameNames:
+    - stand
+    MD5_animController: 9f69953437312f325cfd9e134e89b4b3
+  - GUID_mat: ccfdfc9f520221d4c86e52f6bf2b5471
+    GUID_lightMat: 
+    GUID_mesh: 
+    GUID_animMap: aba7feb8f5df4b74b9c63e10a4db3bca
+    Cache_animMap_frames:
+    - {x: 1, y: 400}
+    Cache_animMap_frameNames:
+    - stand
+    MD5_animController: c9a144172743273ae1d8c11e45a4bd67
+  - GUID_mat: 9ff2251f97f9a624bbd9d5abbd1cb8d0
+    GUID_lightMat: 36a0c23c504267d49a202f50c29d4011
+    GUID_mesh: c8413a0d7fcaab64681ad29425bbd7ef
+    GUID_animMap: 19ff329fc8203c34ca51e18724a93716
+    Cache_animMap_frames:
+    - {x: 1, y: 35}
+    - {x: 37, y: 58}
+    - {x: 60, y: 77}
+    - {x: 79, y: 118}
+    - {x: 120, y: 159}
+    - {x: 161, y: 200}
+    - {x: 202, y: 246}
+    - {x: 248, y: 287}
+    Cache_animMap_frameNames:
+    - attack
+    - hit
+    - run
+    - skill_1
+    - skill_2
+    - stand
+    - skill_3
+    - dead
+    MD5_animController: 883ff67c05f1a321fc2be9b93306c5aa
+  - GUID_mat: d1d7f02bbaf3c2a468053973431ad8c1
+    GUID_lightMat: 373f9bbe87927e644b3404d23fd2f16d
+    GUID_mesh: 
+    GUID_animMap: 2a39a479be540e14da9f62309fde79c3
+    Cache_animMap_frames:
+    - {x: 1, y: 400}
+    Cache_animMap_frameNames:
+    - stand
+    MD5_animController: 7da6a313f8b2a7cf5425104355f550ab
+  - GUID_mat: cea8d3cb4fa35c145985606469d5715c
+    GUID_lightMat: 667c5fcb62427944cbe53975cfd815ca
+    GUID_mesh: 
+    GUID_animMap: b3d7e3041ee70994386e744c7271e256
+    Cache_animMap_frames:
+    - {x: 1, y: 50}
+    Cache_animMap_frameNames:
+    - stand
+    MD5_animController: fe574d47dd12bef548408c78e3177857
+  - GUID_mat: edc4457e0a36c3a47a224fdd395b7844
+    GUID_lightMat: 4c1268a7b8d6bfb4abc4b50d2d977f5c
+    GUID_mesh: 
+    GUID_animMap: feeaaa6b3f374f14baa502e7ddfd386a
+    Cache_animMap_frames:
+    - {x: 1, y: 280}
+    Cache_animMap_frameNames:
+    - stand
+    MD5_animController: 476b48b708a00a7bf031986d1f3ef9bd
+  - GUID_mat: 53f5b3652dcafb8479a6b6ca3d0bafcf
+    GUID_lightMat: c367cff225f1bcc48bfffd2a15312a44
+    GUID_mesh: 
+    GUID_animMap: 467ca657c5d751441afa4309d54acbfe
+    Cache_animMap_frames:
+    - {x: 1, y: 100}
+    Cache_animMap_frameNames:
+    - stand
+    MD5_animController: 5a84307eb07dcc74d934e5584a2d3ba5
+  - GUID_mat: 
+    GUID_lightMat: 51c056259d03a1b428a41857ba970b4a
+    GUID_mesh: 
+    GUID_animMap: 802b4ab2327b68944912a11eee12dc46
+    Cache_animMap_frames:
+    - {x: 1, y: 120}
+    - {x: 122, y: 196}
+    Cache_animMap_frameNames:
+    - show
+    - stand
+    MD5_animController: 7cf148f3a73f5e3b4aca8be9bee2d1d1
+  - GUID_mat: 
+    GUID_lightMat: 2420c8107b1bd51418942bc477f3e02f
+    GUID_mesh: 
+    GUID_animMap: 40d2cd56f1bcb2a44a7bf0dd95fba027
+    Cache_animMap_frames:
+    - {x: 1, y: 36}
+    - {x: 38, y: 93}
+    - {x: 95, y: 114}
+    - {x: 116, y: 135}
+    - {x: 137, y: 176}
+    - {x: 178, y: 211}
+    - {x: 213, y: 372}
+    Cache_animMap_frameNames:
+    - attack
+    - dead
+    - hit
+    - run
+    - stand
+    - walk
+    - stand2
+    MD5_animController: 4eb2d514fb759fbf5cd800c8d3f85d30
+  - GUID_mat: 
+    GUID_lightMat: d44b556de159f8045b2540de27308e78
+    GUID_mesh: 
+    GUID_animMap: 17adb5542cd31a64c8550af38a147b14
+    Cache_animMap_frames:
+    - {x: 1, y: 40}
+    - {x: 42, y: 101}
+    - {x: 103, y: 122}
+    - {x: 124, y: 143}
+    - {x: 145, y: 194}
+    - {x: 196, y: 235}
+    - {x: 237, y: 268}
+    - {x: 270, y: 394}
+    Cache_animMap_frameNames:
+    - attack
+    - dead
+    - hit
+    - run
+    - skill_1
+    - stand
+    - walk
+    - born
+    MD5_animController: fbad1f7e07f9791f18f71ce7c8d5bf2c
+  - GUID_mat: 
+    GUID_lightMat: a24669bbf5a5f63499f718ef5eadd511
+    GUID_mesh: 
+    GUID_animMap: 4146befab8a2c6541982555fc80658ec
+    Cache_animMap_frames:
+    - {x: 1, y: 40}
+    - {x: 42, y: 71}
+    - {x: 73, y: 142}
+    - {x: 144, y: 168}
+    - {x: 170, y: 193}
+    - {x: 195, y: 226}
+    Cache_animMap_frameNames:
+    - stand
+    - attack_1
+    - dead
+    - hit
+    - run
+    - walk
+    MD5_animController: a0573101205b788afd5ac5146da9ab0b
+  - GUID_mat: 
+    GUID_lightMat: f311352f04d5a6b4584b740a3637f4cb
+    GUID_mesh: 
+    GUID_animMap: 11ae80740903f8b4eb1b6d0e4180f825
+    Cache_animMap_frames:
+    - {x: 1, y: 32}
+    - {x: 34, y: 66}
+    - {x: 68, y: 129}
+    - {x: 131, y: 148}
+    - {x: 150, y: 170}
+    - {x: 172, y: 203}
+    Cache_animMap_frameNames:
+    - stand
+    - attack
+    - dead
+    - hit
+    - run
+    - walk
+    MD5_animController: ed9ed29dc1d405ea914f5a2662ba9772
+  - GUID_mat: 
+    GUID_lightMat: 518b526a3e93dc14194b10f9e8671609
+    GUID_mesh: 
+    GUID_animMap: ff8819f9c0ed67341969ffcda98a42f7
+    Cache_animMap_frames:
+    - {x: 1, y: 40}
+    - {x: 42, y: 76}
+    - {x: 78, y: 93}
+    - {x: 95, y: 114}
+    - {x: 116, y: 155}
+    - {x: 157, y: 190}
+    Cache_animMap_frameNames:
+    - attack
+    - dead
+    - hit
+    - run
+    - stand
+    - walk
+    MD5_animController: 3ac45cffbc7aae674a73aa02e54b6108
+  - GUID_mat: 
+    GUID_lightMat: 058f1c6ee595d1a40a85edfdb762a51a
+    GUID_mesh: 
+    GUID_animMap: de28782ee5b00ff40ac0f5e1ce7ff830
+    Cache_animMap_frames:
+    - {x: 1, y: 24}
+    - {x: 26, y: 55}
+    - {x: 57, y: 76}
+    - {x: 78, y: 105}
+    - {x: 107, y: 136}
+    - {x: 138, y: 171}
+    Cache_animMap_frameNames:
+    - attack
+    - dead
+    - hit
+    - run
+    - stand
+    - walk
+    MD5_animController: cc251b1a7becaaddf20e397b7dfaba68
+  - GUID_mat: 
+    GUID_lightMat: adb0bf09a9cf20f419bf1de34da15800
+    GUID_mesh: 
+    GUID_animMap: f34322e432cda6e4c9e39c6c4b29353c
+    Cache_animMap_frames:
+    - {x: 1, y: 30}
+    - {x: 32, y: 83}
+    - {x: 85, y: 104}
+    - {x: 106, y: 125}
+    - {x: 127, y: 158}
+    - {x: 160, y: 193}
+    Cache_animMap_frameNames:
+    - attack
+    - dead
+    - hit
+    - run
+    - stand
+    - walk
+    MD5_animController: 5b4e73ffc4d9e300ef5a49830a01309c
+  - GUID_mat: 
+    GUID_lightMat: 5d4dc1b84193ae148bab9cf2b1b52279
+    GUID_mesh: 
+    GUID_animMap: 1971650593e4a2d4a81a7d3a42c62514
+    Cache_animMap_frames:
+    - {x: 1, y: 28}
+    - {x: 30, y: 74}
+    - {x: 76, y: 95}
+    - {x: 97, y: 120}
+    - {x: 122, y: 161}
+    - {x: 163, y: 196}
+    Cache_animMap_frameNames:
+    - attack
+    - dead
+    - hit
+    - run
+    - stand
+    - walk
+    MD5_animController: e2886ac31f6a463a4a3997ff5b9610cb
+  - GUID_mat: 
+    GUID_lightMat: 1136cc954eb72af41ae271d727517c44
+    GUID_mesh: 
+    GUID_animMap: 2d10a590de69b5644a6202450ad43294
+    Cache_animMap_frames:
+    - {x: 1, y: 17}
+    - {x: 19, y: 28}
+    Cache_animMap_frameNames:
+    - open
+    - stand
+    MD5_animController: 3e392e989dfc07fea5b2ca4d1b156141
+  - GUID_mat: 
+    GUID_lightMat: 3e96bb4c4ea9bfc4e997a5a61e644125
+    GUID_mesh: 
+    GUID_animMap: 26afe973a601e3c4399930b9d2fee98b
+    Cache_animMap_frames:
+    - {x: 1, y: 17}
+    - {x: 19, y: 28}
+    Cache_animMap_frameNames:
+    - open
+    - stand
+    MD5_animController: 3e392e989dfc07fea5b2ca4d1b156141
+  - GUID_mat: 
+    GUID_lightMat: 12c9150e1b25e354498037348a6eff7c
+    GUID_mesh: 
+    GUID_animMap: 8faceafdb721ced4289847358a4b45d7
+    Cache_animMap_frames:
+    - {x: 1, y: 17}
+    - {x: 19, y: 28}
+    Cache_animMap_frameNames:
+    - open
+    - stand
+    MD5_animController: 3e392e989dfc07fea5b2ca4d1b156141
+  - GUID_mat: 
+    GUID_lightMat: f96422e43ea062941ba5aa244aa384e1
+    GUID_mesh: 
+    GUID_animMap: 7c45106f1f62fcf4e91beba143564499
+    Cache_animMap_frames:
+    - {x: 1, y: 30}
+    - {x: 32, y: 63}
+    - {x: 65, y: 104}
+    - {x: 106, y: 145}
+    - {x: 147, y: 201}
+    - {x: 203, y: 322}
+    - {x: 324, y: 483}
+    Cache_animMap_frameNames:
+    - hit
+    - run
+    - stand
+    - walk
+    - dead
+    - skill_2
+    - born
+    MD5_animController: 8f06e7a287bfc8edca30a73db97bb921
+  - GUID_mat: 
+    GUID_lightMat: b44ab38fbec320142a2953bc8778cbf0
+    GUID_mesh: 
+    GUID_animMap: 98d0c1ba92bc7264eacb1de39faa6ce4
+    Cache_animMap_frames:
+    - {x: 1, y: 53}
+    - {x: 55, y: 94}
+    - {x: 96, y: 137}
+    - {x: 139, y: 158}
+    - {x: 160, y: 201}
+    - {x: 203, y: 234}
+    - {x: 236, y: 265}
+    Cache_animMap_frameNames:
+    - attack
+    - born
+    - dead
+    - run
+    - skill_1
+    - walk
+    - stand
+    MD5_animController: b4a436196fa2de27f236243b4fb9446b
+  - GUID_mat: 
+    GUID_lightMat: 06c3ccde31636cd45b33810b3991249e
+    GUID_mesh: 
+    GUID_animMap: 21b06e26063d0af4dabea00f46bce012
+    Cache_animMap_frames:
+    - {x: 1, y: 68}
+    - {x: 70, y: 129}
+    - {x: 131, y: 210}
+    - {x: 212, y: 251}
+    - {x: 253, y: 292}
+    - {x: 294, y: 369}
+    - {x: 371, y: 430}
+    - {x: 432, y: 479}
+    Cache_animMap_frameNames:
+    - attack
+    - born
+    - dead
+    - hit
+    - run
+    - skill_1
+    - stand
+    - walk
+    MD5_animController: 19e01832c949e3d8bff42e8e59db6359
+  - GUID_mat: 
+    GUID_lightMat: 18e5ec544ea7e0b4cbec58fdfe9e6d5c
+    GUID_mesh: 
+    GUID_animMap: d6010946a188f8c498e225ad76359541
+    Cache_animMap_frames:
+    - {x: 1, y: 50}
+    - {x: 52, y: 90}
+    - {x: 92, y: 117}
+    - {x: 119, y: 175}
+    - {x: 177, y: 247}
+    - {x: 249, y: 272}
+    - {x: 274, y: 330}
+    - {x: 332, y: 383}
+    - {x: 385, y: 416}
+    - {x: 418, y: 453}
+    Cache_animMap_frameNames:
+    - stand
+    - attack
+    - hit
+    - skill_2
+    - dead
+    - run
+    - skill_1
+    - skill_3
+    - walk
+    - born
+    MD5_animController: 5c7d08e05ce1604b67cd3eb501fe9a49
+  - GUID_mat: 
+    GUID_lightMat: 3afc31b4a434c834bab38140f12fc937
+    GUID_mesh: 
+    GUID_animMap: 0cb91f2a60dae08458ff7e2a9144af2c
+    Cache_animMap_frames:
+    - {x: 1, y: 40}
+    - {x: 42, y: 90}
+    - {x: 92, y: 129}
+    - {x: 131, y: 150}
+    - {x: 152, y: 171}
+    - {x: 173, y: 237}
+    - {x: 239, y: 268}
+    - {x: 270, y: 309}
+    Cache_animMap_frameNames:
+    - attack
+    - born
+    - dead
+    - hit
+    - run
+    - skill_1
+    - stand
+    - walk
+    MD5_animController: ecd132e44074fc8f6c350fa87336666f
+  - GUID_mat: 
+    GUID_lightMat: 27506bec7fc94ba46ab81642714b1a75
+    GUID_mesh: 
+    GUID_animMap: 26387f228be28cd49a717cc93f9928f2
+    Cache_animMap_frames:
+    - {x: 1, y: 20}
+    - {x: 22, y: 59}
+    - {x: 61, y: 80}
+    - {x: 82, y: 101}
+    - {x: 103, y: 182}
+    - {x: 184, y: 223}
+    - {x: 225, y: 254}
+    - {x: 256, y: 340}
+    Cache_animMap_frameNames:
+    - attack_1
+    - dead
+    - hit
+    - run
+    - skill_1
+    - stand
+    - walk
+    - born
+    MD5_animController: bb0d63d1c5966585b0a82e78a112a02d
+  - GUID_mat: 
+    GUID_lightMat: 571825938a709d54d8359864bfb699ae
+    GUID_mesh: 
+    GUID_animMap: af829bc00924ff64c9715afc9eb5b449
+    Cache_animMap_frames:
+    - {x: 1, y: 30}
+    - {x: 32, y: 91}
+    - {x: 93, y: 110}
+    - {x: 112, y: 143}
+    - {x: 145, y: 226}
+    - {x: 228, y: 267}
+    - {x: 269, y: 328}
+    - {x: 330, y: 379}
+    Cache_animMap_frameNames:
+    - attack_1
+    - dead
+    - hit
+    - run
+    - skill_1
+    - skill_2
+    - stand
+    - walk
+    MD5_animController: feb2d8be2336efc260d502562ff294c2
+  - GUID_mat: 
+    GUID_lightMat: 16da38ab6e7f843479f06bbf9f84990f
+    GUID_mesh: 
+    GUID_animMap: 2109b026cc0429e41a58e4a6f6b08337
+    Cache_animMap_frames:
+    - {x: 1, y: 85}
+    - {x: 87, y: 129}
+    - {x: 131, y: 150}
+    - {x: 152, y: 171}
+    - {x: 173, y: 204}
+    - {x: 206, y: 235}
+    - {x: 237, y: 262}
+    - {x: 264, y: 307}
+    - {x: 309, y: 453}
+    Cache_animMap_frameNames:
+    - born
+    - dead
+    - hit
+    - run
+    - walk
+    - stand
+    - attack
+    - skill1
+    - skill2
+    MD5_animController: e9c7e4535bed9ac20f067fe739562be4
+  - GUID_mat: 
+    GUID_lightMat: 9463907321bda064da266469a75cb66b
+    GUID_mesh: 
+    GUID_animMap: 478ca43883fd1ac45994a35ce75e60da
+    Cache_animMap_frames:
+    - {x: 1, y: 30}
+    - {x: 32, y: 79}
+    - {x: 81, y: 100}
+    - {x: 102, y: 121}
+    - {x: 123, y: 162}
+    - {x: 164, y: 193}
+    - {x: 195, y: 288}
+    - {x: 290, y: 377}
+    Cache_animMap_frameNames:
+    - stand
+    - attack
+    - hit
+    - run
+    - skill_1
+    - walk
+    - dead
+    - born
+    MD5_animController: a7d15fe235bd411a97ddfb68628c9f8f
+  - GUID_mat: 
+    GUID_lightMat: c7b7230a965cb8f48ba76a204ebb9dd3
+    GUID_mesh: 
+    GUID_animMap: 69b0ff211dc430741ba2d335bb62525e
+    Cache_animMap_frames:
+    - {x: 1, y: 30}
+    - {x: 32, y: 61}
+    - {x: 63, y: 89}
+    - {x: 91, y: 108}
+    - {x: 110, y: 127}
+    - {x: 129, y: 164}
+    - {x: 166, y: 193}
+    - {x: 195, y: 212}
+    Cache_animMap_frameNames:
+    - attack
+    - born
+    - dead
+    - hurt
+    - run
+    - skill_1
+    - walk
+    - stand
+    MD5_animController: d9db756590d4084fd49aad2a46478b14
+  - GUID_mat: 
+    GUID_lightMat: 72814f9fb4af4e14498f23e5eb5e1cdc
+    GUID_mesh: 
+    GUID_animMap: 3d34c72337d91d147832411fae747f88
+    Cache_animMap_frames:
+    - {x: 1, y: 39}
+    - {x: 41, y: 90}
+    - {x: 92, y: 106}
+    - {x: 108, y: 127}
+    - {x: 129, y: 176}
+    - {x: 178, y: 212}
+    - {x: 214, y: 248}
+    - {x: 250, y: 314}
+    Cache_animMap_frameNames:
+    - attack
+    - born
+    - hit
+    - run
+    - skill_2
+    - stand
+    - walk
+    - dead
+    MD5_animController: 63d698859ae5d6b27f64c5445bc11fd8
+  - GUID_mat: 
+    GUID_lightMat: 8b655d1c3d77f61489b637dd3244a556
+    GUID_mesh: 
+    GUID_animMap: 47dc0c7ca10755746994eb05240d2658
+    Cache_animMap_frames:
+    - {x: 1, y: 80}
+    - {x: 82, y: 151}
+    - {x: 153, y: 178}
+    - {x: 180, y: 203}
+    - {x: 205, y: 236}
+    - {x: 238, y: 275}
+    - {x: 277, y: 337}
+    - {x: 339, y: 376}
+    - {x: 378, y: 437}
+    Cache_animMap_frameNames:
+    - stand
+    - dead
+    - hit
+    - run
+    - walk
+    - attack_1
+    - skill_3
+    - attack_1
+    - born
+    MD5_animController: 90adca635a98d5ce997af1605da95f62
+  - GUID_mat: 
+    GUID_lightMat: 5e1675f32f9602941b92d37b49dc32ee
+    GUID_mesh: 
+    GUID_animMap: 97d18477939ab5542903d2ee4913c79d
+    Cache_animMap_frames:
+    - {x: 1, y: 32}
+    - {x: 34, y: 73}
+    - {x: 75, y: 114}
+    - {x: 116, y: 139}
+    - {x: 141, y: 164}
+    - {x: 166, y: 220}
+    - {x: 222, y: 261}
+    - {x: 263, y: 397}
+    Cache_animMap_frameNames:
+    - walk
+    - stand
+    - skill_2
+    - run
+    - hit
+    - dead
+    - attack_1
+    - born
+    MD5_animController: f7d9df3300bb6924960cb68d385787da
+  - GUID_mat: 
+    GUID_lightMat: 4858114818325204a8c06a69000c66d2
+    GUID_mesh: 
+    GUID_animMap: ec192a0f2fe4cf142836996edb6e2dd1
+    Cache_animMap_frames:
+    - {x: 1, y: 40}
+    - {x: 42, y: 86}
+    - {x: 88, y: 127}
+    - {x: 129, y: 167}
+    - {x: 169, y: 208}
+    - {x: 210, y: 257}
+    - {x: 259, y: 273}
+    - {x: 275, y: 298}
+    - {x: 300, y: 379}
+    Cache_animMap_frameNames:
+    - stand
+    - skill_2
+    - skill_1
+    - attack_1
+    - walk
+    - dead
+    - hit
+    - run
+    - born
+    MD5_animController: f3647fa31371530c279b124f444e2d39
+  - GUID_mat: 
+    GUID_lightMat: 82f88553fa1c6844a978e03770b76327
+    GUID_mesh: 
+    GUID_animMap: 4916375e753fe4e4ea61bc486e3487cd
+    Cache_animMap_frames:
+    - {x: 1, y: 38}
+    - {x: 40, y: 79}
+    - {x: 81, y: 100}
+    - {x: 102, y: 117}
+    - {x: 119, y: 163}
+    - {x: 165, y: 221}
+    - {x: 223, y: 282}
+    - {x: 284, y: 329}
+    - {x: 331, y: 390}
+    Cache_animMap_frameNames:
+    - attack_1
+    - dead
+    - hit
+    - run
+    - skill_1
+    - skill_2
+    - stand
+    - walk
+    - born
+    MD5_animController: 3cb7034c1f1a6fef3dd2ecd26e5fce72
+  - GUID_mat: 
+    GUID_lightMat: 243335ca5af207844a0f700bee9edfca
+    GUID_mesh: 
+    GUID_animMap: f2dd97c755d580e47ac001af4c34fc0e
+    Cache_animMap_frames:
+    - {x: 1, y: 30}
+    - {x: 32, y: 70}
+    - {x: 72, y: 91}
+    - {x: 93, y: 122}
+    - {x: 124, y: 193}
+    - {x: 195, y: 254}
+    - {x: 256, y: 295}
+    - {x: 297, y: 351}
+    Cache_animMap_frameNames:
+    - attack
+    - dead
+    - hit
+    - run
+    - skill_1
+    - stand
+    - walk
+    - born
+    MD5_animController: 5be072a1a8f6b4c97f01fa35846295ab
+  - GUID_mat: 
+    GUID_lightMat: 8eadbdbd1bf62604f8cac29325bd8d99
+    GUID_mesh: 
+    GUID_animMap: 3145cf1030d8b27418c98460f999adde
+    Cache_animMap_frames:
+    - {x: 1, y: 57}
+    - {x: 59, y: 103}
+    - {x: 105, y: 136}
+    - {x: 138, y: 177}
+    - {x: 179, y: 195}
+    - {x: 197, y: 266}
+    - {x: 268, y: 367}
+    - {x: 369, y: 460}
+    - {x: 462, y: 493}
+    Cache_animMap_frameNames:
+    - attack_1
+    - dead
+    - fly_1
+    - fly_2
+    - hit
+    - skill_1
+    - skill_2
+    - skill_3
+    - stand
+    MD5_animController: 97b3c2bb7fa0e8f311817c2e3c49dd2c
+  - GUID_mat: 
+    GUID_lightMat: e0bdf530ecfc84d4a901d649d7c20a0e
+    GUID_mesh: 
+    GUID_animMap: 24837bba5aedad045a779e6a1fbb3b88
+    Cache_animMap_frames:
+    - {x: 1, y: 120}
+    Cache_animMap_frameNames:
+    - stand
+    MD5_animController: c2576d0cd98129e82c1ff65b60f23d35
+  - GUID_mat: 
+    GUID_lightMat: 1ca96a0ec0652f14f8a44785882fac78
+    GUID_mesh: 
+    GUID_animMap: f9dad77528498a447bd39b1dc5806c9f
+    Cache_animMap_frames:
+    - {x: 1, y: 280}
+    Cache_animMap_frameNames:
+    - stand
+    MD5_animController: 6e28002a60305900b123d512e30c4cdc
+  - GUID_mat: 
+    GUID_lightMat: 24a109be46804b34da0a1fe530fe0cff
+    GUID_mesh: 
+    GUID_animMap: f6ad37a15e57f0e4f96d0c2e972ee518
+    Cache_animMap_frames:
+    - {x: 1, y: 300}
+    Cache_animMap_frameNames:
+    - stand
+    MD5_animController: fe35ff3f2d881d00caed30d12cc185f9
+  - GUID_mat: 
+    GUID_lightMat: ba197408ec8ab9f4f8a9cdcb6eb2de6f
+    GUID_mesh: 
+    GUID_animMap: 8c527d6d9bb8edf43a442602f48c6c07
+    Cache_animMap_frames:
+    - {x: 1, y: 400}
+    Cache_animMap_frameNames:
+    - stand
+    MD5_animController: 778d38698657d2771f15033c85c1272f
+  - GUID_mat: 686e8c26966c9cc44b0a75b97c08bcc9
+    GUID_lightMat: 
+    GUID_mesh: 276038971ba10aa47af6e8e13e604012
+    GUID_animMap: 0578be6027d21694e93868e8a76d9124
+    Cache_animMap_frames:
+    - {x: 1, y: 40}
+    - {x: 42, y: 91}
+    - {x: 93, y: 152}
+    - {x: 154, y: 321}
+    - {x: 323, y: 352}
+    - {x: 354, y: 377}
+    - {x: 379, y: 404}
+    - {x: 406, y: 485}
+    Cache_animMap_frameNames:
+    - stand
+    - attack
+    - skill_1
+    - skill_2
+    - walk
+    - run
+    - hit
+    - dead
+    MD5_animController: 4b115ad401b6f89032857048af5172e2
+  - GUID_mat: 0e35a6523e8c56847bc5f7de8ebe512a
+    GUID_lightMat: 
+    GUID_mesh: e49c618be230117469d42ce3d07f9db7
+    GUID_animMap: 803af806e3a1b1f419ba8b5e3d0adf8c
+    Cache_animMap_frames:
+    - {x: 1, y: 44}
+    - {x: 46, y: 104}
+    - {x: 106, y: 137}
+    - {x: 139, y: 162}
+    - {x: 164, y: 199}
+    - {x: 201, y: 260}
+    - {x: 262, y: 301}
+    Cache_animMap_frameNames:
+    - attack
+    - dead
+    - hit
+    - run
+    - skill_1
+    - skill_2
+    - stand
+    MD5_animController: 986549ddd2cca05a18a97bb79afbb1cd
+  - GUID_mat: 
+    GUID_lightMat: 5d3a45a5c29d9d047a8ab4d522f7795a
+    GUID_mesh: 
+    GUID_animMap: 58d0038a468ac0b40bd1cffc47b5ae19
+    Cache_animMap_frames:
+    - {x: 1, y: 17}
+    - {x: 19, y: 28}
+    Cache_animMap_frameNames:
+    - open
+    - stand
+    MD5_animController: 3e392e989dfc07fea5b2ca4d1b156141
+  - GUID_mat: 
+    GUID_lightMat: cad918ea50a5e194ab8b82631a8380d2
+    GUID_mesh: 
+    GUID_animMap: ed9a2b536c3da45458f2ae19ab4e2b6b
+    Cache_animMap_frames:
+    - {x: 1, y: 32}
+    - {x: 34, y: 73}
+    - {x: 75, y: 94}
+    Cache_animMap_frameNames:
+    - walk01
+    - attack_01
+    - run
+    MD5_animController: 918497e9fba63e4232c223816c39f244
+  - GUID_mat: 
+    GUID_lightMat: a24669bbf5a5f63499f718ef5eadd511
+    GUID_mesh: 
+    GUID_animMap: 4146befab8a2c6541982555fc80658ec
+    Cache_animMap_frames:
+    - {x: 1, y: 30}
+    - {x: 32, y: 63}
+    - {x: 65, y: 88}
+    Cache_animMap_frameNames:
+    - attack_01
+    - walk01
+    - run
+    MD5_animController: 50089b11f5cf7782806c78a2653b6d0f
+  - GUID_mat: 
+    GUID_lightMat: f311352f04d5a6b4584b740a3637f4cb
+    GUID_mesh: 
+    GUID_animMap: 11ae80740903f8b4eb1b6d0e4180f825
+    Cache_animMap_frames:
+    - {x: 1, y: 33}
+    - {x: 35, y: 66}
+    - {x: 68, y: 88}
+    Cache_animMap_frameNames:
+    - attack01
+    - walk01
+    - run
+    MD5_animController: e445dfc91a4e46828f6bd00d8e256b2e

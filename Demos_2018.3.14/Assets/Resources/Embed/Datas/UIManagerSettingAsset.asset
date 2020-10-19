@@ -42,12 +42,12 @@ MonoBehaviour:
       AllowHDR: 0
       AllowMSAA: 0
     PlaneDistance: 505
-    ScaleMode: 0
+    ScaleMode: 1
     ScaleFactor: 1
     ReferencePixelsPerUnit: 100
-    ReferenceResolution: {x: 800, y: 600}
+    ReferenceResolution: {x: 1280, y: 720}
     ScreenMatchMode: 0
-    MatchWidthOrHeight: 0
+    MatchWidthOrHeight: 1
     PhysicalUnit: 3
     FallbackScreenDPI: 96
     DefaultSpriteDPI: 96

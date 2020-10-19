@@ -157,12 +157,8 @@
     <Compile Include="src\Utility\CorrectingAspect.cs" />
     <Compile Include="src\Utility\EditorSupport\Interfaces\IShaderDefine.cs" />
     <Compile Include="src\Utility\EditorSupport\MeshChecker\MeshChecker.cs" />
-    <Compile Include="src\Utility\EditorSupport\MeshEditTool\MeshVertexEdition.cs" />
-    <Compile Include="src\Utility\EditorSupport\SimpleTestMonoBehaviour\SimpleTestMonoBehaviour.cs" />
     <Compile Include="src\Utility\EditorSupport\TansformPlus\TansformShortcut.cs" />
     <Compile Include="src\Utility\FPS.cs" />
-    <Compile Include="src\Utility\GPUTextureUtility\GPUTextureUtils.cs" />
-    <Compile Include="src\Utility\GPUTextureUtility\Texture2DGPUUtility.cs" />
     <Compile Include="src\Utility\Texture2DUtility.cs" />
     <Compile Include="src\Utility\TextureScale.cs" />
     <Compile Include="src\Utility\TimeScaleIgnore.cs" />

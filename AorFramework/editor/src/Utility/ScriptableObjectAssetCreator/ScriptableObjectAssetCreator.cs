@@ -62,7 +62,7 @@ namespace Framework.Editor.Utility
 
         private static ScriptableObjectAssetCreator _instance;
 
-        [MenuItem("Assets/ScriptableObject数据文件生成器")]
+        [MenuItem("FrameworkTools/ScriptableObject数据文件生成器")]
         public static ScriptableObjectAssetCreator init()
         {
             _instance = EditorWindow.GetWindow<ScriptableObjectAssetCreator>();

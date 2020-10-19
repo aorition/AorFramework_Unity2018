@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2018_4_12;UNITY_2018_4;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2018_4_12;UNITY_2018_4;UNITY_2018;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_RUNTIME_PERMISSIONS;UNITY_ASTC_ONLY_DECOMPRESS;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -48,7 +48,7 @@
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
     <UnityProjectType>Game:1</UnityProjectType>
-    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
     <UnityVersion>2018.4.12f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\AnimtorTest.cs" />
+    <Compile Include="Assets\Scripts\DevRootControllor.cs" />
     <Compile Include="Assets\Scripts\GameModules\PlayControl\ActorController.cs" />
     <Compile Include="Assets\Scripts\GameModules\PlayControl\ActorDataBase.cs" />
     <Compile Include="Assets\Scripts\GameModules\PlayControl\ActorSystemManager.cs" />
@@ -236,6 +237,8 @@
     <Compile Include="Assets\UnityExtends\modules\DelayActionForLua\LuaDelayForCondition.cs" />
     <Compile Include="Assets\UnityExtends\modules\DelayActionForLua\LuaDelayToNextFrame.cs" />
     <Compile Include="Assets\UnityExtends\modules\DelayActionForLua\LuaSimpleLoopAction.cs" />
+    <Compile Include="Assets\UnityExtends\modules\DynamicBone\DynamicBone.cs" />
+    <Compile Include="Assets\UnityExtends\modules\DynamicBone\DynamicBoneCollider.cs" />
     <Compile Include="Assets\UnityExtends\modules\Effects\other\DeathDissolveEffectHandler.cs" />
     <Compile Include="Assets\UnityExtends\modules\Effects\PrefabEffectHandler.cs" />
     <Compile Include="Assets\UnityExtends\modules\Effects\Scripts\EffectScript_EffectDelayRun.cs" />
@@ -253,6 +256,23 @@
     <Compile Include="Assets\UnityExtends\modules\FrameAnim\FrameAnimBase.cs" />
     <Compile Include="Assets\UnityExtends\modules\FrameAnim\ImageFrameAnim.cs" />
     <Compile Include="Assets\UnityExtends\modules\FrameAnim\RawImageFrameAnim.cs" />
+    <Compile Include="Assets\UnityExtends\modules\GPUSkinning\AnimationData.cs" />
+    <Compile Include="Assets\UnityExtends\modules\GPUSkinning\Body.cs" />
+    <Compile Include="Assets\UnityExtends\modules\GPUSkinning\GPUInstancingTransform.cs" />
+    <Compile Include="Assets\UnityExtends\modules\GPUSkinning\GPUSkinAndInstancing.cs" />
+    <Compile Include="Assets\UnityExtends\modules\GPUSkinning\GPUSkinInstanceRenderer.cs" />
+    <Compile Include="Assets\UnityExtends\modules\GPUSkinning\GPUSkinning.cs" />
+    <Compile Include="Assets\UnityExtends\modules\GPUSkinning\GPUSkinning_Bone.cs" />
+    <Compile Include="Assets\UnityExtends\modules\GPUSkinning\GPUSkinning_BoneAnimation.cs" />
+    <Compile Include="Assets\UnityExtends\modules\GPUSkinning\GPUSkinning_BoneAnimation_config.cs" />
+    <Compile Include="Assets\UnityExtends\modules\GPUSkinning\GPUSkinning_BoneAnimationFrame.cs" />
+    <Compile Include="Assets\UnityExtends\modules\GPUSkinning\GPUSkinning_BoneAnimationFrame_config.cs" />
+    <Compile Include="Assets\UnityExtends\modules\GPUSkinning\GPUSkinning_SpawnObject.cs" />
+    <Compile Include="Assets\UnityExtends\modules\GPUSkinning\GPUSkinningBase.cs" />
+    <Compile Include="Assets\UnityExtends\modules\GPUSkinning\GPUSkinningGroup.cs" />
+    <Compile Include="Assets\UnityExtends\modules\GPUSkinning\GPUSkinningTexturen.cs" />
+    <Compile Include="Assets\UnityExtends\modules\GPUSkinning\Utility\GPUSkinAnimDebugTool.cs" />
+    <Compile Include="Assets\UnityExtends\modules\GPUSkinning\Utility\NeedConvertoGPUSkinningPrefab.cs" />
     <Compile Include="Assets\UnityExtends\modules\GraphicsEffects\FLPostEffects\FLBloomEffect.cs" />
     <Compile Include="Assets\UnityExtends\modules\GraphicsEffects\FLPostEffects\FLBloomEffectNew.cs" />
     <Compile Include="Assets\UnityExtends\modules\GraphicsEffects\FLPostEffects\FLDepthOfFieldEffect.cs" />
@@ -260,6 +280,9 @@
     <Compile Include="Assets\UnityExtends\modules\GraphicsEffects\FLPostEffects\FLInversionEffect.cs" />
     <Compile Include="Assets\UnityExtends\modules\GraphicsEffects\FLPostEffects\FLRadialBlurEffect.cs" />
     <Compile Include="Assets\UnityExtends\modules\Lightmap\LightmapManager.cs" />
+    <Compile Include="Assets\UnityExtends\modules\PerlinNoiseTextureGeneratorForUGUI\PerlinNoiseDataWraper.cs" />
+    <Compile Include="Assets\UnityExtends\modules\PerlinNoiseTextureGeneratorForUGUI\PerlinNoiseTexGenerator.cs" />
+    <Compile Include="Assets\UnityExtends\modules\PerlinNoiseTextureGeneratorForUGUI\Texture2DCacheForRawImage.cs" />
     <Compile Include="Assets\UnityExtends\modules\Physics\ColliderEventListener.cs" />
     <Compile Include="Assets\UnityExtends\modules\PrefabLinker\PrefabLinker.cs" />
     <Compile Include="Assets\UnityExtends\modules\Splines\Bezier.cs" />
@@ -476,12 +499,20 @@
     <Compile Include="Assets\UnityExtends\modules3rd\Spine\spine-unity\SkeletonUtility\SkeletonUtilityBone.cs" />
     <Compile Include="Assets\UnityExtends\modules3rd\Spine\spine-unity\SkeletonUtility\SkeletonUtilityConstraint.cs" />
     <Compile Include="Assets\UnityExtends\modules3rd\Spine\spine-unity\SpineAttributes.cs" />
+    <Compile Include="Assets\UnityExtends\modules3rd\UnityChan\Scripts\CameraController.cs" />
+    <Compile Include="Assets\UnityExtends\modules3rd\UnityChan\Scripts\FaceUpdate.cs" />
+    <Compile Include="Assets\UnityExtends\modules3rd\UnityChan\Scripts\IdleChanger.cs" />
+    <Compile Include="Assets\UnityExtends\modules3rd\UnityChan\Scripts\SceneLoader.cs" />
+    <Compile Include="Assets\UnityExtends\modules3rd\UnityChan\Scripts\ThirdPersonCamera.cs" />
+    <Compile Include="Assets\UnityExtends\modules3rd\UnityChan\Scripts\UnityChanControlScriptWithRgidBody.cs" />
     <None Include="Assets\UnityExtends\framework\Shaders\AFW\Unlit\Unlit-Color-DoubleSide.shader" />
+    <None Include="Assets\UnityExtends\modules3rd\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
     <None Include="Assets\UnityExtends\modules\T4MLite\version.txt" />
     <None Include="Assets\UnityExtends\modules3rd\NatureStarterKit2\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
     <None Include="Assets\UnityExtends\modules3rd\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
     <None Include="Assets\UnityExtends\modules3rd\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
     <None Include="Assets\UnityExtends\modules3rd\Spine\spine-unity\Shaders\Utility\HiddenPass.shader" />
+    <None Include="Assets\UnityExtends\modules3rd\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
     <None Include="Assets\UnityExtends\framework\Shaders\AFW\NGUI\NGUI-Grow.shader" />
     <None Include="Assets\UnityExtends\modules3rd\NatureStarterKit2\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
     <None Include="Assets\UnityExtends\modules3rd\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
@@ -568,8 +599,10 @@
     <None Include="Assets\UnityExtends\framework\Shaders\AFW\UGUI\Image-Dissolve-AlphaClip.shader" />
     <None Include="Assets\UnityExtends\modules\T4MLite\Shaders\T4MLite\T4MLite_Diffuse.shader" />
     <None Include="Assets\UnityExtends\framework\Shaders\AFW\NGUI\NGUI-UVMask 1.shader" />
+    <None Include="Assets\UnityExtends\modules3rd\UnityChan\license.txt" />
     <None Include="Assets\UnityExtends\framework\Shaders\AFW\Fonts\CustomFont-Gradient.shader" />
     <None Include="Assets\UnityExtends\modules3rd\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+    <None Include="Assets\UnityExtends\modules\GPUSkinning\Shaders\GPUSkinningTexturen.shader" />
     <None Include="Assets\UnityExtends\framework\Shaders\AFW\Unlit\Unlit-Distortion-RT.shader" />
     <None Include="Assets\UnityExtends\framework\Shaders\AFW\PostEffect\FastBloom.shader" />
     <None Include="Assets\Lua\version.txt" />
@@ -581,15 +614,18 @@
     <None Include="Assets\UnityExtends\framework\Shaders\AFW\PostEffect\DepthOfField-Simple.shader" />
     <None Include="Assets\UnityExtends\modules3rd\Spine\spine-unity\Modules\Shaders\Sprite\SpriteUnlit.cginc" />
     <None Include="Assets\UnityExtends\framework\Shaders\AFW\Toon\Toon-Standard.shader" />
+    <None Include="Assets\UnityExtends\modules3rd\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku_ds.shader" />
     <None Include="Assets\UnityExtends\framework\Shaders\AFW\UGUI\RawImage-Gray.shader" />
     <None Include="Assets\UnityExtends\framework\Shaders\AFW\Toon\Toon-Standard-CustomLight.shader" />
     <None Include="Assets\UnityExtends\modules3rd\Spine\spine-unity\Modules\Shaders\Sprite\CGIncludes\SpriteUnlit.cginc" />
     <None Include="Assets\UnityExtends\modules3rd\NatureStarterKit2\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+    <None Include="Assets\UnityExtends\modules3rd\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />
     <None Include="Assets\UnityExtends\framework\Shaders\AFW\NGUI\NGUI-Color 1.shader" />
     <None Include="Assets\UnityExtends\modules3rd\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
     <None Include="Assets\UnityExtends\modules3rd\Spine\spine-unity\version.txt" />
     <None Include="Assets\UnityExtends\framework\Shaders\AFW\Toon\Toon-OutLine.shader" />
     <None Include="Assets\UnityExtends\modules3rd\Spine\spine-unity\Modules\Shaders\Sprite\SpritesPixelLit.shader" />
+    <None Include="Assets\UnityExtends\modules3rd\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />
     <None Include="Assets\UnityExtends\framework\Shaders\AFW\PostEffect\RadialBlur.shader" />
     <None Include="Assets\UnityExtends\modules3rd\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
     <None Include="Assets\UnityExtends\framework\Shaders\AFW\NGUI\NGUI-AlphaByPic-UvMove 1.shader" />
@@ -601,6 +637,7 @@
     <None Include="Assets\UnityExtends\modules3rd\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
     <None Include="Assets\UnityExtends\modules3rd\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
     <None Include="Assets\UnityExtends\modules3rd\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+    <None Include="Assets\UnityExtends\modules3rd\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
     <None Include="Assets\UnityExtends\framework\Shaders\AFW\NGUI\NGUI-ClipMask.shader" />
     <None Include="Assets\UnityExtends\framework\Shaders\AFW\NGUI\NGUI-ScreenChange.shader" />
     <None Include="Assets\UnityExtends\modules3rd\Spine\spine-unity\Modules\Shaders\Sprite\SpritesUnlit.shader" />
@@ -616,6 +653,7 @@
     <None Include="Assets\UnityExtends\modules3rd\Spine\spine-unity\Modules\Ghost\Shaders\Spine-Special-Skeleton-Ghost.shader" />
     <None Include="Assets\UnityExtends\modules3rd\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
     <None Include="Assets\UnityExtends\modules3rd\NatureStarterKit2\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+    <None Include="Assets\UnityExtends\modules3rd\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
     <None Include="Assets\UnityExtends\modules3rd\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
     <None Include="Assets\UnityExtends\modules3rd\NatureStarterKit2\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
     <None Include="Assets\UnityExtends\framework\Shaders\AFW\Sprite2D\Sprite2D-Fog.shader" />
@@ -624,6 +662,8 @@
     <None Include="Assets\UnityExtends\modules3rd\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
     <None Include="Assets\UnityExtends\modules3rd\Spine\spine-unity\Modules\Shaders\Sprite\CGIncludes\SpriteVertexLighting.cginc" />
     <None Include="Assets\UnityExtends\framework\Shaders\AFW\Unlit\Unlit-ScaleTexture.shader" />
+    <None Include="Assets\UnityExtends\modules3rd\UnityChan\Stage\Shader\AlphaMask.shader" />
+    <None Include="Assets\UnityExtends\modules3rd\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eyelash_blend.shader" />
     <None Include="Assets\UnityExtends\framework\Shaders\AFW\UGUI\Image-AlphaMask.shader" />
     <None Include="Assets\UnityExtends\modules3rd\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
     <None Include="Assets\UnityExtends\modules3rd\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
@@ -643,6 +683,7 @@
     <None Include="Assets\UnityExtends\modules3rd\Spine\spine-unity\Modules\Shaders\Sprite\CameraDepthNormalsTexture.shader" />
     <None Include="Assets\UnityExtends\modules3rd\Spine\spine-unity\Shaders\Spine-Skeleton-TintBlack.shader" />
     <None Include="Assets\UnityExtends\modules3rd\Spine\spine-unity\Modules\Shaders\Sprite\CGIncludes\ShaderShared.cginc" />
+    <None Include="Assets\UnityExtends\modules3rd\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
     <None Include="Assets\UnityExtends\framework\Shaders\AFW\Billbord\Billbord-Mesh.shader" />
     <None Include="Assets\UnityExtends\modules3rd\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
     <None Include="Assets\UnityExtends\framework\Shaders\AFW\NGUI\NGUI-AlphaMask.shader" />
@@ -656,6 +697,7 @@
     <None Include="Assets\UnityExtends\modules3rd\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
     <None Include="Assets\UnityExtends\modules3rd\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
     <None Include="Assets\UnityExtends\modules3rd\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
+    <None Include="Assets\UnityExtends\modules3rd\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
     <None Include="Assets\UnityExtends\framework\Shaders\AFW\UGUI\Image-TextureNiose.shader" />
     <None Include="Assets\UnityExtends\modules3rd\Spine\spine-unity\Shaders\SpineExtends\Skeleton_OLD.shader" />
     <None Include="Assets\UnityExtends\modules3rd\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
@@ -712,19 +754,19 @@
     <None Include="Assets\UnityExtends\framework\Shaders\AFW\NGUI\NGUI-SoftClipMask.shader" />
     <None Include="Assets\UnityExtends\modules3rd\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -749,12 +791,6 @@
     </Reference>
     <Reference Include="UnityEngine.ClothModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ClusterInputModule">
-      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ClusterRendererModule">
-      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
@@ -812,6 +848,9 @@
     </Reference>
     <Reference Include="UnityEngine.SharedInternalsModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTrackingModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpriteMaskModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
@@ -928,46 +967,46 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Assets/Plugins/DOTween/DOTween.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Assets/Plugins/DOTween/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="DOTween43">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Assets/Plugins/DOTween/DOTween43.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Assets/Plugins/DOTween/DOTween43.dll</HintPath>
     </Reference>
     <Reference Include="DOTween46">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Assets/Plugins/DOTween/DOTween46.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Assets/Plugins/DOTween/DOTween46.dll</HintPath>
     </Reference>
     <Reference Include="DOTween50">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Assets/Plugins/DOTween/DOTween50.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Assets/Plugins/DOTween/DOTween50.dll</HintPath>
     </Reference>
     <Reference Include="AorBaseUtility">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Assets/UnityExtends/framework/Plugins/AorBaseUtility.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Assets/UnityExtends/framework/Plugins/AorBaseUtility.dll</HintPath>
     </Reference>
     <Reference Include="AorFramework">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Assets/UnityExtends/framework/Plugins/AorFramework.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Assets/UnityExtends/framework/Plugins/AorFramework.dll</HintPath>
     </Reference>
     <Reference Include="AorFrameworkUI">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Assets/UnityExtends/framework/Plugins/AorFrameworkUI.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Assets/UnityExtends/framework/Plugins/AorFrameworkUI.dll</HintPath>
     </Reference>
     <Reference Include="AorUnityExtents">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Assets/UnityExtends/framework/Plugins/AorUnityExtents.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Assets/UnityExtends/framework/Plugins/AorUnityExtents.dll</HintPath>
     </Reference>
     <Reference Include="zlib.net">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Assets/UnityExtends/framework/Plugins/zlib.net.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Assets/UnityExtends/framework/Plugins/zlib.net.dll</HintPath>
     </Reference>
     <Reference Include="CString">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Assets/UnityExtends/modules/ToLua/Plugins/CString.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Assets/UnityExtends/modules/ToLua/Plugins/CString.dll</HintPath>
     </Reference>
     <Reference Include="Debugger">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Assets/UnityExtends/modules/ToLua/Plugins/Debugger.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Assets/UnityExtends/modules/ToLua/Plugins/Debugger.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -1314,6 +1353,12 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Unity.AssetBundleBrowser.Editor.csproj">
+      <Project>{8D254AA2-2781-2376-B3A1-618C167822D1}</Project>
+      <Name>Unity.AssetBundleBrowser.Editor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2018_4_12;UNITY_2018_4;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2018_4_12;UNITY_2018_4;UNITY_2018;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_RUNTIME_PERMISSIONS;UNITY_ASTC_ONLY_DECOMPRESS;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -48,7 +48,7 @@
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
     <UnityProjectType>Editor:5</UnityProjectType>
-    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
     <UnityVersion>2018.4.12f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
@@ -66,10 +66,41 @@
     <Compile Include="Assets\Scripts\TerrainEditTool\Editor\ObjExporter.cs" />
     <Compile Include="Assets\Scripts\TerrainEditTool\Editor\TerrainEditTool.cs" />
     <Compile Include="Assets\Scripts\TerrainEditTool\Editor\TerrainEditToolUtility.cs" />
-    <Compile Include="Assets\UnityExtends\modules\AnimatorDebuger\Editor\AorAnimatorDebugerWindow.cs" />
+    <Compile Include="Assets\UnityExtends\modules\AnimatorDebuger\Editor\AnimatorDebugerWindow.cs" />
+    <Compile Include="Assets\UnityExtends\modules\AssetsManagedTools\Editor\AnimFileOptimizTool.cs" />
+    <Compile Include="Assets\UnityExtends\modules\AssetsManagedTools\Editor\AssetDuplicate\AssetDuplicateWindow.cs" />
+    <Compile Include="Assets\UnityExtends\modules\AssetsManagedTools\Editor\AssetsFindEditorWindow.cs" />
+    <Compile Include="Assets\UnityExtends\modules\AssetsManagedTools\Editor\BMFontGenerator\BMFontGeneratorWindow.cs" />
+    <Compile Include="Assets\UnityExtends\modules\AssetsManagedTools\Editor\BMFontTool\BetterList.cs" />
+    <Compile Include="Assets\UnityExtends\modules\AssetsManagedTools\Editor\BMFontTool\BMFont.cs" />
+    <Compile Include="Assets\UnityExtends\modules\AssetsManagedTools\Editor\BMFontTool\BMFontCreateToolWindow.cs" />
+    <Compile Include="Assets\UnityExtends\modules\AssetsManagedTools\Editor\BMFontTool\BMFontReader.cs" />
+    <Compile Include="Assets\UnityExtends\modules\AssetsManagedTools\Editor\BMFontTool\BMGlyph.cs" />
+    <Compile Include="Assets\UnityExtends\modules\AssetsManagedTools\Editor\BMFontTool\ByteReader.cs" />
+    <Compile Include="Assets\UnityExtends\modules\AssetsManagedTools\Editor\MeshCombineTool\MeshCombineTool.cs" />
+    <Compile Include="Assets\UnityExtends\modules\AssetsManagedTools\Editor\MeshStatisticsTool.cs" />
+    <Compile Include="Assets\UnityExtends\modules\AssetsManagedTools\Editor\PrefabBatchProcessor\CustomBatchActions\ClearMissingComponent.cs" />
+    <Compile Include="Assets\UnityExtends\modules\AssetsManagedTools\Editor\PrefabBatchProcessor\CustomBatchActions\MeshRendererPorcessor.cs" />
+    <Compile Include="Assets\UnityExtends\modules\AssetsManagedTools\Editor\PrefabBatchProcessor\PBPTagLabelAttribute.cs" />
+    <Compile Include="Assets\UnityExtends\modules\AssetsManagedTools\Editor\PrefabBatchProcessor\PrefabBatchActionBase.cs" />
+    <Compile Include="Assets\UnityExtends\modules\AssetsManagedTools\Editor\PrefabBatchProcessor\PrefabBatchProcessor.cs" />
+    <Compile Include="Assets\UnityExtends\modules\AssetsManagedTools\Editor\SpritesReplacer\SpritesReplaceDataAsset.cs" />
+    <Compile Include="Assets\UnityExtends\modules\AssetsManagedTools\Editor\SpritesReplacer\SpritesReplacerWindow.cs" />
+    <Compile Include="Assets\UnityExtends\modules\AssetsManagedTools\Editor\TextureModifyTool\TexChannelToolWindow.cs" />
+    <Compile Include="Assets\UnityExtends\modules\AssetsManagedTools\Editor\TextureModifyTool\TextureToSpritesToolWindow.cs" />
+    <Compile Include="Assets\UnityExtends\modules\AssetsManagedTools\Editor\TextureOrSpritesRefTool\TOSRefWindow.cs" />
+    <Compile Include="Assets\UnityExtends\modules\AssetsManagedTools\Editor\TextureOrSpritesRefTool\XSRCacheAsset.cs" />
+    <Compile Include="Assets\UnityExtends\modules\AssetsManagedTools\Editor\TimeManagerWindow.cs" />
     <Compile Include="Assets\UnityExtends\modules\FrameAnim\Editor\FrameAnimBaseEditor.cs" />
     <Compile Include="Assets\UnityExtends\modules\FrameAnim\Editor\ImageFrameAnimEditor.cs" />
     <Compile Include="Assets\UnityExtends\modules\FrameAnim\Editor\RawImageFrameAnimEditor.cs" />
+    <Compile Include="Assets\UnityExtends\modules\GPUSkinning\Utility\Editor\GPUSkinAnimDebugToolEditor.cs" />
+    <Compile Include="Assets\UnityExtends\modules\GPUSkinning\Utility\Editor\GPUSkinningResCacheAsset.cs" />
+    <Compile Include="Assets\UnityExtends\modules\GPUSkinning\Utility\Editor\GPUSkinningUtility.cs" />
+    <Compile Include="Assets\UnityExtends\modules\GPUSkinning\Utility\Editor\NeedConvertoGPUSkinningPrefabEditor.cs" />
+    <Compile Include="Assets\UnityExtends\modules\PerlinNoiseTextureGeneratorForUGUI\Editor\PerlinNoiseDatasetWindow.cs" />
+    <Compile Include="Assets\UnityExtends\modules\PerlinNoiseTextureGeneratorForUGUI\Editor\PerlinNoiseTexGeneratorEditor.cs" />
+    <Compile Include="Assets\UnityExtends\modules\PerlinNoiseTextureGeneratorForUGUI\Editor\Texture2DCacheForRawImageEditor.cs" />
     <Compile Include="Assets\UnityExtends\modules\PrefabLinker\Editor\PrefabLinkerEditor.cs" />
     <Compile Include="Assets\UnityExtends\modules\Splines\Editor\SplineDataExport.cs" />
     <Compile Include="Assets\UnityExtends\modules\Splines\Editor\SplineDataImport.cs" />
@@ -287,19 +318,19 @@
     <Compile Include="Assets\UnityExtends\modules3rd\Spine\spine-unity\SkeletonUtility\Editor\SkeletonUtilityInspector.cs" />
     <None Include="Assets\UnityExtends\modules3rd\Spine\spine-unity\Editor\Resources\SpineAssetDatabaseMarker.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -539,58 +570,58 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Assets/Plugins/DOTween/DOTween.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Assets/Plugins/DOTween/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="DOTween43">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Assets/Plugins/DOTween/DOTween43.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Assets/Plugins/DOTween/DOTween43.dll</HintPath>
     </Reference>
     <Reference Include="DOTween46">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Assets/Plugins/DOTween/DOTween46.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Assets/Plugins/DOTween/DOTween46.dll</HintPath>
     </Reference>
     <Reference Include="DOTween50">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Assets/Plugins/DOTween/DOTween50.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Assets/Plugins/DOTween/DOTween50.dll</HintPath>
     </Reference>
     <Reference Include="AorBaseUtility">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Assets/UnityExtends/framework/Plugins/AorBaseUtility.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Assets/UnityExtends/framework/Plugins/AorBaseUtility.dll</HintPath>
     </Reference>
     <Reference Include="AorFramework">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Assets/UnityExtends/framework/Plugins/AorFramework.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Assets/UnityExtends/framework/Plugins/AorFramework.dll</HintPath>
     </Reference>
     <Reference Include="AorFrameworkUI">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Assets/UnityExtends/framework/Plugins/AorFrameworkUI.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Assets/UnityExtends/framework/Plugins/AorFrameworkUI.dll</HintPath>
     </Reference>
     <Reference Include="AorUnityExtents">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Assets/UnityExtends/framework/Plugins/AorUnityExtents.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Assets/UnityExtends/framework/Plugins/AorUnityExtents.dll</HintPath>
     </Reference>
     <Reference Include="zlib.net">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Assets/UnityExtends/framework/Plugins/zlib.net.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Assets/UnityExtends/framework/Plugins/zlib.net.dll</HintPath>
     </Reference>
     <Reference Include="AorFrameworkEditor">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Assets/UnityExtends/framework/Plugins/Editor/AorFrameworkEditor.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Assets/UnityExtends/framework/Plugins/Editor/AorFrameworkEditor.dll</HintPath>
     </Reference>
     <Reference Include="AorFrameworkUIEditor">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Assets/UnityExtends/framework/Plugins/Editor/AorFrameworkUIEditor.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Assets/UnityExtends/framework/Plugins/Editor/AorFrameworkUIEditor.dll</HintPath>
     </Reference>
     <Reference Include="CString">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Assets/UnityExtends/modules/ToLua/Plugins/CString.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Assets/UnityExtends/modules/ToLua/Plugins/CString.dll</HintPath>
     </Reference>
     <Reference Include="Debugger">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Assets/UnityExtends/modules/ToLua/Plugins/Debugger.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Assets/UnityExtends/modules/ToLua/Plugins/Debugger.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>D:/work/AorFrameworks_Unity2018/Demos_2018.3.14/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>D:/work/github/AorFramework_Unity2018/Demos_2018.3.14/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -951,6 +982,10 @@
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{E4F8E998-DC00-3394-A3C0-D2EDCB33E849}</Project>
       <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AssetBundleBrowser.Editor.csproj">
+      <Project>{8D254AA2-2781-2376-B3A1-618C167822D1}</Project>
+      <Name>Unity.AssetBundleBrowser.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

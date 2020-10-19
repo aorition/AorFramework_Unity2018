@@ -14,8 +14,26 @@ namespace Framework.Graphic.FastShadowProjector.Editor
 
         static FSPStaticMeshManagerEditor()
         {
+
+#if UNITY_2018
+            EditorApplication.playModeStateChanged += OnPlaymodeStateChanged;
+#elif UNITY_5
             EditorApplication.playmodeStateChanged += OnPlaymodeStateChanged;
+#endif
         }
+
+#if UNITY_2018
+
+        static void OnPlaymodeStateChanged(PlayModeStateChange playModeState)
+        {
+            if(playModeState == PlayModeStateChange.ExitingPlayMode)
+            {
+                TraverseReceivers();
+                RecreateFSPStaticHolder();
+            }
+        }
+
+#elif UNITY_5
 
         static void OnPlaymodeStateChanged()
         {
@@ -25,6 +43,8 @@ namespace Framework.Graphic.FastShadowProjector.Editor
                 RecreateFSPStaticHolder();
             }
         }
+
+#endif
 
         static void TraverseReceivers()
         {

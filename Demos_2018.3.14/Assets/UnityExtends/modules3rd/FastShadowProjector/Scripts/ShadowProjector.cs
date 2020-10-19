@@ -491,7 +491,11 @@ namespace Framework.Graphic.FastShadowProjector
 
             _Renderer = _ShadowDummy.gameObject.AddComponent<MeshRenderer>();
             _Renderer.receiveShadows = false;
+#if UNITY_5
             _Renderer.castShadows = false;
+#elif UNITY_2018
+            _Renderer.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
+#endif
             _Renderer.material = _Material;
             _Renderer.enabled = false;
 

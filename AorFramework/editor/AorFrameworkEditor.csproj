@@ -81,7 +81,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="src\Audio\AudioManagerEditor.cs" />
     <Compile Include="src\Graphics\CustomLightSystem\Editor\CustomLightManagerEditor.cs" />
-    <Compile Include="src\Utility\BMFontGenerator\BMFontGeneratorWindow.cs" />
     <Compile Include="src\Core\DecoratorEditor.cs" />
     <Compile Include="src\Core\FrameworkEditorBehaviour.cs" />
     <Compile Include="src\Core\HierachyMonitor.cs" />
@@ -104,8 +103,6 @@
     <Compile Include="src\Graphics\GraphicsSystem\RenderTextureCaptcherEditor.cs" />
     <Compile Include="src\Graphics\PrefabLightmap\PrefabLightmapDataEditor.cs" />
     <Compile Include="src\ProcessControl\QueueActionManager\QueueActionManagerEditor.cs" />
-    <Compile Include="src\Utility\AssetsFindEditorWindow.cs" />
-    <Compile Include="src\Utility\MeshStatisticsTool.cs" />
     <Compile Include="src\Misc\NGUIEditorGUIUtility.cs" />
     <Compile Include="src\DynamicShaderSystem\MaterialInspectorBase.cs" />
     <Compile Include="src\EditorInternalRefs\EditorResourcesUtility.cs" />
@@ -128,26 +125,17 @@
     <Compile Include="src\Graphics\VisualCamera\VCETargetGroup.cs" />
     <Compile Include="src\Graphics\VisualCamera\VisualCameraEditor.cs" />
     <Compile Include="src\Graphics\VisualCamera\VisualCameraExtensionEditor.cs" />
-    <Compile Include="src\Utility\AnimFileOptimizTool.cs" />
-    <Compile Include="src\Utility\CameraBrowser\CameraBrowserWindow.cs" />
     <Compile Include="src\Utility\DllUpgrader.cs" />
     <Compile Include="src\Utility\EditorStyleView.cs" />
-    <Compile Include="src\Utility\FrameworkBaseShaderCreater\FrameworkBaseShaderCreater.cs" />
+    <Compile Include="src\DynamicShaderSystem\FrameworkBaseShaderCreater.cs" />
     <Compile Include="src\Utility\MeshChecker\ModelCheckerEditor.cs" />
-    <Compile Include="src\Utility\MeshCombineTool\MeshCombineTool.cs" />
-    <Compile Include="src\Utility\MeshEditTool\MeshEditToolWindow.cs" />
-    <Compile Include="src\Utility\MeshEditTool\MeshExportUtil.cs" />
-    <Compile Include="src\Utility\MeshEditTool\MeshFilterPlus.cs" />
-    <Compile Include="src\Utility\MeshEditTool\MeshVertexEditionEditor.cs" />
+    <Compile Include="src\Utility\MeshFilterPlus\MeshExportUtil.cs" />
+    <Compile Include="src\Utility\MeshFilterPlus\MeshFilterPlus.cs" />
     <Compile Include="src\Utility\ScriptableObjectAssetCreator\ScriptableObjectAssetCreator.cs" />
     <Compile Include="src\Utility\ShaderWriter\ShaderWriter.cs" />
     <Compile Include="src\Utility\ShaderWriter\SwPropertyItem.cs" />
-    <Compile Include="src\Utility\SimpleTestMonoBehaviour\SimpleTestEditor.cs" />
     <Compile Include="src\Utility\TansformPlus\TransformPlusEditor.cs" />
     <Compile Include="src\Units\MipMapSetting.cs" />
-    <Compile Include="src\Utility\TextureModifyTool\TexChannelToolWindow.cs" />
-    <Compile Include="src\Utility\TextureModifyTool\TextureToSpritesToolWindow.cs" />
-    <Compile Include="src\Utility\TimeManagerWindow.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\source\AorFramework.csproj">

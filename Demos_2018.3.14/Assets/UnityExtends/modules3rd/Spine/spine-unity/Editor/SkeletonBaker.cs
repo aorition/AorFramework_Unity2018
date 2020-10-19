@@ -434,14 +434,21 @@ namespace Spine.Unity.Editor {
 
 
 				if (newPrefab) {
+#if UNITY_2018
+					PrefabUtility.SaveAsPrefabAssetAndConnect(prefabRoot, prefabPath, InteractionMode.AutomatedAction);
+#elif UNITY_5
 					PrefabUtility.ReplacePrefab(prefabRoot, prefab, ReplacePrefabOptions.ConnectToPrefab);
+#endif
 				} else {
 
 					foreach (string str in unusedMeshNames) {
 						Mesh.DestroyImmediate(meshTable[str], true);
 					}
-
+#if UNITY_2018
+					PrefabUtility.SaveAsPrefabAssetAndConnect(prefabRoot, prefabPath, InteractionMode.AutomatedAction);
+#elif UNITY_5
 					PrefabUtility.ReplacePrefab(prefabRoot, prefab, ReplacePrefabOptions.ReplaceNameBased);
+#endif
 				}
 
 				EditorGUIUtility.PingObject(prefab);
@@ -1423,7 +1430,7 @@ namespace Spine.Unity.Editor {
 
 			return GetPathRecurse(b.Parent) + "/" + b.Name;
 		}
-		#endregion
+#endregion
 
 		static void SetAnimationSettings (AnimationClip clip, AnimationClipSettings settings) {
 			AnimationUtility.SetAnimationClipSettings(clip, settings);

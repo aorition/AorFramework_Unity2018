@@ -46,6 +46,7 @@
     <Compile Include="src\Extends\ArrayExtends.cs" />
     <Compile Include="src\Extends\FloatExtends.cs" />
     <Compile Include="src\Extends\ListEntends.cs" />
+    <Compile Include="src\Extends\StringBuilderExtends.cs" />
     <Compile Include="src\Extends\StringExtends.cs" />
     <Compile Include="src\IO\AorIO.cs" />
     <Compile Include="src\IO\ByteBuffer.cs" />
