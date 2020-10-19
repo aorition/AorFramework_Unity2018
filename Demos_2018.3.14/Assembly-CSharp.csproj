@@ -225,7 +225,6 @@
     <Compile Include="Assets\Source\Generate\UnityEngine_WWWFormWrap.cs" />
     <Compile Include="Assets\Source\Generate\UnityEngine_WWWWrap.cs" />
     <Compile Include="Assets\Source\LuaConst.cs" />
-    <Compile Include="Assets\Temp\TempDev.cs" />
     <Compile Include="Assets\UnityExtends\framework\Source\LuaSupports\LuaBehaviour.cs" />
     <Compile Include="Assets\UnityExtends\framework\Source\LuaSupports\LuaManager.cs" />
     <Compile Include="Assets\UnityExtends\framework\Source\LuaSupports\Tools.cs" />
@@ -713,6 +712,7 @@
     <None Include="Assets\UnityExtends\framework\Shaders\AFW\Billbord\Billbord-Sprites.shader" />
     <None Include="Assets\UnityExtends\modules\ToLua\Injection\InjectionBridgeEditorInfo.xml" />
     <None Include="Assets\UnityExtends\framework\Shaders\AFW\Unlit\Unlit-4CombieTexture.shader" />
+    <None Include="Assets\FrameworkEditorSupport\Shader\ModelChecker.shader" />
     <None Include="Assets\UnityExtends\modules3rd\FastShadowProjector\Resources\Terrain\FSP_TerrainBaseMap.shader" />
     <None Include="Assets\UnityExtends\framework\Shaders\AFW\NGUI\NGUI-AlphaByPic-UvMove.shader" />
     <None Include="Assets\UnityExtends\modules3rd\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />

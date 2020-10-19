@@ -125,12 +125,14 @@
     <Compile Include="src\Graphics\VisualCamera\VCETargetGroup.cs" />
     <Compile Include="src\Graphics\VisualCamera\VisualCameraEditor.cs" />
     <Compile Include="src\Graphics\VisualCamera\VisualCameraExtensionEditor.cs" />
+    <Compile Include="src\Utility\AnimatorRuntimeDevTool\AnimatorRuntimeDevTool.cs" />
     <Compile Include="src\Utility\DllUpgrader.cs" />
     <Compile Include="src\Utility\EditorStyleView.cs" />
     <Compile Include="src\DynamicShaderSystem\FrameworkBaseShaderCreater.cs" />
-    <Compile Include="src\Utility\MeshChecker\ModelCheckerEditor.cs" />
-    <Compile Include="src\Utility\MeshFilterPlus\MeshExportUtil.cs" />
-    <Compile Include="src\Utility\MeshFilterPlus\MeshFilterPlus.cs" />
+    <Compile Include="src\Utility\MeshPlusTool\ModelCheckerEditor.cs" />
+    <Compile Include="src\Utility\MeshPlusTool\MeshExportUtil.cs" />
+    <Compile Include="src\Utility\MeshPlusTool\SkinnedMeshRendererPlus.cs" />
+    <Compile Include="src\Utility\MeshPlusTool\MeshFilterPlus.cs" />
     <Compile Include="src\Utility\ScriptableObjectAssetCreator\ScriptableObjectAssetCreator.cs" />
     <Compile Include="src\Utility\ShaderWriter\ShaderWriter.cs" />
     <Compile Include="src\Utility\ShaderWriter\SwPropertyItem.cs" />
@@ -144,6 +146,7 @@
       <Private>False</Private>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

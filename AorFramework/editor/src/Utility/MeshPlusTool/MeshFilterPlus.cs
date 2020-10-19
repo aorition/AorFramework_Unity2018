@@ -298,7 +298,7 @@ namespace Framework.Utility.Editor
 
                 GUILayout.Space(5);
 
-                _checker = (target as MeshFilter).gameObject.GetComponent<MeshChecker>();
+                _checker = _target.gameObject.GetComponent<MeshChecker>();
                 _checkActive = _checker;
 
                 _checkActive = EditorGUILayout.ToggleLeft(new GUIContent("Mesh检查工具"), _checkActive, Title0Style);
@@ -346,7 +346,7 @@ namespace Framework.Utility.Editor
                     if (!shader) FrameworkBaseShaderCreater.BuildingShaderFile(ShaderDefine, false);
 
                     //checker init
-                    _checker = (target as MeshFilter).gameObject.AddComponent<MeshChecker>();
+                    _checker = _target.gameObject.AddComponent<MeshChecker>();
                     _checker.hideFlags = HideFlags.HideInInspector | HideFlags.DontSave | HideFlags.DontSaveInEditor;
                 }
 
@@ -546,7 +546,7 @@ namespace Framework.Utility.Editor
 
         private void __Draw_meshExportUI()
         {
-            GameObject prefab = (target as MeshFilter).gameObject;
+            GameObject prefab = _target.gameObject;
 
             PrefabType pt = PrefabUtility.GetPrefabType(prefab);
             bool isFBX = (pt == PrefabType.ModelPrefabInstance);

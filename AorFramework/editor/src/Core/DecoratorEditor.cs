@@ -36,9 +36,9 @@ namespace Framework.Editor
 
         #endregion
 
-        private static Boolean _decoratedError = false;
+        private Boolean _decoratedError = false;
 
-        private static Dictionary<string, MethodInfo> decoratedMethods = new Dictionary<string, MethodInfo>();
+        private Dictionary<string, MethodInfo> decoratedMethods = new Dictionary<string, MethodInfo>();
 
         private static Assembly editorAssembly = Assembly.GetAssembly(typeof(UnityEditor.Editor));
 
@@ -105,17 +105,26 @@ namespace Framework.Editor
             editedObjectType = field.GetValue(attributes[0]) as System.Type;
         }
 
+        protected virtual void Awake()
+        {
+            CallInspectorMethod("Awake");
+        }
+
         protected virtual void OnEnable()
         {
-            //
+            CallInspectorMethod("OnEnable");
         }
 
         protected virtual void OnDisable()
         {
-            if (editorInstance != null)
-            {
+            CallInspectorMethod("OnDisable");
+        }
+
+        protected virtual void OnDestroy()
+        {
+            CallInspectorMethod("OnDestroy");
+            if(editorInstance != null)
                 DestroyImmediate(editorInstance);
-            }
         }
 
         /// <summary>
@@ -136,10 +145,10 @@ namespace Framework.Editor
                 {
                     decoratedMethods[methodName] = method;
                 }
-                else
-                {
-                    Debug.LogError(string.Format("Could not find method {0}", method));
-                }
+                //else
+                //{
+                //    Debug.LogError(string.Format("Could not find method {0}", methodName));
+                //}
             }
             else
             {

@@ -66,7 +66,7 @@
     <Compile Include="Assets\Scripts\TerrainEditTool\Editor\ObjExporter.cs" />
     <Compile Include="Assets\Scripts\TerrainEditTool\Editor\TerrainEditTool.cs" />
     <Compile Include="Assets\Scripts\TerrainEditTool\Editor\TerrainEditToolUtility.cs" />
-    <Compile Include="Assets\UnityExtends\modules\AnimatorDebuger\Editor\AnimatorDebugerWindow.cs" />
+    <Compile Include="Assets\Temp\Editor\TestEditorWindow.cs" />
     <Compile Include="Assets\UnityExtends\modules\AssetsManagedTools\Editor\AnimFileOptimizTool.cs" />
     <Compile Include="Assets\UnityExtends\modules\AssetsManagedTools\Editor\AssetDuplicate\AssetDuplicateWindow.cs" />
     <Compile Include="Assets\UnityExtends\modules\AssetsManagedTools\Editor\AssetsFindEditorWindow.cs" />
